@@ -80,7 +80,7 @@ Open `http://localhost:8501`.
 ### 3. Run with Docker
 
 ```bash
-docker compose up --build
+docker build -t agent .
 ```
 
 Open `http://localhost:8501`. Results are saved to `./output/` on your host machine.
