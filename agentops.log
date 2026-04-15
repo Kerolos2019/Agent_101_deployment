@@ -1,0 +1,12 @@
+2026-04-15 19:40:33,188 - INFO - Session Replay for default trace: https://app.agentops.ai/sessions?trace_id=10875d85e5c1a4ca2ad8b982202fda55
+2026-04-15 19:40:41,597 - ERROR - [agentops.InternalSpanProcessor] Error uploading logfile: Upload failed: 401
+2026-04-15 19:40:43,892 - WARNING - ToolEvent() is deprecated and will be removed in v4 in the future. Automatically tracked in v4.
+2026-04-15 19:43:58,647 - ERROR - Error in span gpt-4o.llm: litellm.RateLimitError: RateLimitError: OpenAIException - Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-LP32E4CvgKU8YjflZvuScOgr on tokens per min (TPM): Limit 30000, Requested 31067. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2026-04-15 19:43:58,661 - ERROR - Error in span Search Engine Agent.agent: litellm.RateLimitError: RateLimitError: OpenAIException - Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-LP32E4CvgKU8YjflZvuScOgr on tokens per min (TPM): Limit 30000, Requested 31067. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2026-04-15 19:43:58,676 - ERROR - Error in span Search for products based on all of the suggested search queries.
+Collect results from multiple queries.
+Ignore suspicious links or non-e-commerce single-product pages.
+Ignore search results with a confidence score below 0.1.
+Results will be used to compare prices across different websites..task: litellm.RateLimitError: RateLimitError: OpenAIException - Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-LP32E4CvgKU8YjflZvuScOgr on tokens per min (TPM): Limit 30000, Requested 31067. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2026-04-15 19:56:07,427 - WARNING - end_session() is deprecated and will be removed in v4 in the future. Use agentops.end_trace() instead.
+2026-04-15 19:56:08,071 - INFO - Session Replay for default.session trace: https://app.agentops.ai/sessions?trace_id=10875d85e5c1a4ca2ad8b982202fda55

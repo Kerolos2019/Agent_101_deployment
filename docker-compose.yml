@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  procurement-agent:
+    build: .
+    image: procurement-agent:latest
+    container_name: procurement-agent
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      # Persist agent output files on the host
+      - ./output:/app/output
+    restart: unless-stopped

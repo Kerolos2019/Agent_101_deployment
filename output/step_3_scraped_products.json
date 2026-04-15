@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "page_url": "https://www.jumia.com.eg/krups-espresso-machine-15-bar-1450w-black-134151099.html?srsltid=AfmBOoozF4lHfvGW1Md0NZbWVLCLRfSctCSrJTd8Q2ogdZkE-iCIlbGp",
+      "product_title": "Nespresso Citiz and Milk White Espresso Coffee Machine",
+      "product_image_url": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/99/0151431/1.jpg?1302",
+      "product_url": "https://www.jumia.com.eg/nespresso-citiz-and-milk-white-espresso-coffee-machine-134151099.html?srsltid=AfmBOoozF4lHfvGW1Md0NZbWVLCLRfSctCSrJTd8Q2ogdZkE-iCIlbGp",
+      "product_current_price": 27900.0,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [
+        {
+          "specification_name": "Brand",
+          "specification_value": "Nespresso"
+        },
+        {
+          "specification_name": "Model Number",
+          "specification_value": "D123-ME-WH-NE2"
+        },
+        {
+          "specification_name": "Color",
+          "specification_value": "red"
+        },
+        {
+          "specification_name": "Product Dimensions",
+          "specification_value": "37.2 x 21.9 x 27.8 cm"
+        },
+        {
+          "specification_name": "Capacity",
+          "specification_value": "1 Liters"
+        }
+      ],
+      "agent_recommendation_rank": 3,
+      "agent_recommendation_notes": [
+        "Competitive price with a noticeable discount",
+        "Integrated milk frother adds value for coffee enthusiasts",
+        "Strong brand reputation and quality build"
+      ]
+    }
+  ]
+}
