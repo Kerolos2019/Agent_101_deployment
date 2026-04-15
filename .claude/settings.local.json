@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:/Users/kerol/Desktop/Agent_101/agent_101/Agent_101_deployment\" log --all --oneline)"
+    ]
+  }
+}
