@@ -1,3 +1,14 @@
+---
+title: Tech Stack Advisor
+emoji: 🧠
+colorFrom: indigo
+colorTo: pink
+sdk: docker
+app_file: app.py
+pinned: false
+license: apache-2.0
+duplicable: true
+---
 # Procurement AI Agent
 
 A multi-agent AI pipeline that automates product research and procurement decisions. Give it a product name and target websites — it searches, scrapes, ranks, and delivers a structured HTML report.
@@ -135,10 +146,12 @@ agent_101/
 3. Push this repo to the Space:
 
 ```bash
-git clone https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME
-cp -r agent_101/* YOUR_SPACE_NAME/
-cd YOUR_SPACE_NAME
-git add . && git commit -m "Deploy" && git push
+git remote add hf https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME
+git remote show
+git remote show hf
+git remote set-url hf https://kerolosyacoub:<YOUR_TOKEN>@huggingface.co/spaces/kerolosyacoub/agent_101
+git push hf main --force
+
 ```
 
 The app will be live at `https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME`.
