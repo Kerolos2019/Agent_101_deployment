@@ -48,6 +48,10 @@ class SingleExtractedProduct(BaseModel):
         default=None,
         title="The discount percentage. None if no discount",
     )
+    in_stock: bool = Field(
+        ...,
+        title="Whether the product is currently in stock and available to buy",
+    )
     product_specs: List[ProductSpec] = Field(
         ...,
         title="The most important specs to compare (1-5 items)",

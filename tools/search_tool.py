@@ -19,4 +19,9 @@ def search_engine_tool(query: str) -> dict:
     Use this to find product pages, prices, or any web content.
     Returns a list of results with titles, URLs, content, and relevance scores.
     """
-    return _get_client().search(query)
+    return _get_client().search(
+        query,
+        search_depth="advanced",
+        max_results=10,
+        days=30,
+    )
